@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Experiment Results</title>
+</head>
+
+<body>
+	<h1>Time-lapse Style Transfer Experiment Results</h1>
+	<section style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap" width=100%>
+		<div style="padding:1%">
+			<h2> DRIT </h2>
+			<h3>
+				<a href="./DRIT/day2blue_3529/index.html">day2blue</a> </br>
+				<a href="./DRIT/day2golden_3529/index.html">day2golden</a></br>
+				<a href="./DRIT/day2night_3549/index.html">day2night</a></br>
+			</h3>
+		</div>
+
+		<div style="padding:1%">
+			<h2> MUNIT </h2>
+			<h3>
+				<a href="./MUNIT/day2blue_270000/index.html">day2blue</a> </br>
+				<a href="./MUNIT/day2golden_265000/index.html">day2golden</a></br>
+				<a href="./MUNIT/day2night_280000/index.html">day2night</a></br>
+			</h3>
+		</div>
+
+
+		<div style="padding:1%">
+			<h2> FUNIT (still training)</h2>
+			<h3>
+				<a href="./FUNIT/day2blue_100000/index.html">day2blue</a> </br>
+				<a href="./FUNIT/day2golden_100000/index.html">day2golden</a></br>
+				<a href="./FUNIT/day2night_100000/index.html">day2night</a></br>
+			</h3>
+		</div>
+
+
+		<div style="padding:1%">
+			<h2> DSMAP </h2>
+			<h3>
+				<p>Whole Images</p>
+				<a href="./DSMAP/day2blue_200000/index.html">day2blue</a> </br>
+				<a href="./DSMAP/day2golden_200000/index.html">1)day2golden</a></br>
+				<a href="./DSMAP/day2night_200000/index.html">day2night</a></br>
+			</h3>
+			<h3>
+				<p>Foreground Images (Mode Collapse Issue)</p>
+				<a href="./DSMAP/day2blue_fg_200000/index.html">day2blue_foreground</a> </br>
+				<a href="./DSMAP/day2golden_fg_200000/index.html">2)day2golden_foreground</a></br>
+				<a href="./DSMAP/day2night_fg_200000/index.html">day2night_foreground</a></br>
+			</h3>
+		</div>
+
+
+		<div style="padding:1%">
+			<h2> Ours </h2>
+			<!-- grad_w=5, kl_w=5, ds_w=2 -->
+			<h3>
+				<p>Final Blended Images (seg+loss+blend)</p>
+				<!-- <a href="./Ours/day2blue_200000/index.html">day2blue</a> </br> -->
+				<a href="./Ours/day2golden_merged_200000/index.html">1) day2golden_merged</a></br>
+				<!-- <a href="./Ours/day2night_200000/index.html">day2night</a></br> -->
+			</h3>
+
+			<h3>	
+				<p>Foreground Images (+new losses)</p>
+				<!-- <a href="./Ours/day2blue_200000/index.html">day2blue_foreground</a> </br> -->
+				<a href="./Ours/day2golden_fg_200000/index.html">2) day2golden_foreground</a></br>
+				<!-- <a href="./Ours/day2night_200000/index.html">day2night_foreground</a></br> -->
+			</h3>
+
+			<h3>
+				<p>Control Group (+seg - geometry losses)=DSMAP</p>
+				<!-- <a href="./Ours/day2golden_noloss_fg_200000/index.html">day2golden_foreground</a></br> -->
+				<a href="./Ours/day2golden_noloss_200000/index.html">1) day2golden_merged</a></br>
+			</h3>
+		</div>
+	</section>
+	<div style="padding:1%; display: flex; flex-direction: row; justify-content: flex-end" width=100%>
+		* 1) and 2) are comparable groups
+	</div>
+
+	<section>
+		<h1>Evaluation Results</h1>
+	</section>
+	
+</body>
