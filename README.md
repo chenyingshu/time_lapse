@@ -1,1 +1,1 @@
-# time_lapse.github.io
+# time_lapse
