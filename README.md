@@ -1,4 +1,4 @@
-# time_lapse
+# Time-of-Day Neural Style Transfer for Architectural Photograph
 Time-of-Day Neural Style Transfer for Architectural Photograph
 
 # Todo list:
