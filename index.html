@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Time-of-Day Neural Style Transfer for Architectural Photograph</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="time of day, neural style transfer, architectual photo" name="keywords">
+	<meta content="DayOfTime Project Webpage" name="description">
+
+	<!-- Favicon -->
+<!--	<link href="img/favicon.ico" rel="icon">-->
+
+	<!-- Google Web Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+	<!-- Customized Bootstrap Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+	<header class="subsection header-style">
+		<h1>Time-of-Day Neural Style Transfer <br>for Architectural Photograph</h1>
+		<p><div>Yingshu Chen<sup>1</sup>   Tuan-Anh Vu<sup>1</sup>   Ka-Chun Shum<sup>1</sup>   Binh-Son Hua<sup>2</sup>   Sai-Kit Yeung<sup>1</sup>
+		<br><sup>1</sup>The Hong Kong University of Science and Technology    <sup>2</sup>VinAI Research</div></p>
+		<p class="text-black">International Conference on Computational Photography (ICCP) 2022</p>
+		<a href="assets/ICCP_2022_paper.pdf"><button class="btn-light btn-header">Paper</button></a>
+		<a href="assets/ICCP_2022_supp_doc.pdf"><button class="btn-light btn-header">Supp</button></a>
+		<a href="./interactive_viewer"><button class="btn-light btn-header">Supp-Viewer</button></a>
+		<a href="#"><button class="btn-light btn-header">Data</button></a>
+		<a href="https://github.com/hkust-vgd/architectural_style_transfer" target="_blank"><button class="btn-light btn-header">Github</button></a>
+	</header>
+
+	<!-- Abastract -->
+	<section class="subsection">
+		<div class="figure-group col row-cols-2">
+			<img class="figure-img" src="img/teaser.png">
+			<img class="figure-img" src="img/teaser2.png">
+		</div>
+		<div class="figure-caption">
+			<strong class="text-dark"> Architectural Photography Style Transfer </strong> aims to transfer background dynamic texture and chrominance, and transfer sufficient styles for foreground while keeping foreground geometry intact.
+		</div>
+	</section>
+	<section class="subsection" id="abstract">
+		<div>
+			<h2 class="text-dark card-title">Abstract</h2>
+			Architectural photography is a genre of photography that focuses on capturing a building or structure in the foreground with dramatic lighting in the background. Inspired by recent successes in image-to-image translation methods, we aim to perform style transfer for architectural photographs. However, the special composition in architectural photography poses great challenges for style transfer in this type of photographs. Existing neural style transfer methods treat the architectural images as a single entity, which would generate mismatched chrominance and destroy geometric features of the original architecture, yielding unrealistic lighting, wrong color rendition, and visual artifacts such as ghosting, appearance distortion, or color mismatching. In this paper, we specialize a neural style transfer method for architectural photography. Our method addresses the composition of the foreground and background in an architectural photograph in a two-branch neural network that separately considers the style transfer of the foreground and the background, respectively. Our method comprises a segmentation module, a learning-based image-to-image translation module, and an image blending optimization module. We trained our image-to-image translation neural network with a new dataset of unconstrained outdoor architectural photographs captured at different magic times of a day, utilizing additional semantic information for better chrominance matching and geometry preservation. Our experiments show that our method can produce photorealistic lighting and color rendition on both the foreground and background, and outperforms general image-to-image translation and arbitrary style transfer baselines quantitatively and qualitatively.
+		</div>
+	</section>
+
+
+	<!-- Method -->
+	<section class="subsection" id="framework">
+		<div>
+			<h2 class="text-dark card-title">Framework</h2>
+			<div class="figure-group col">
+				<img class="col-xl-10 figure-img" src="img/framework.png">
+			</div>
+			<div class="figure-caption text-center">
+				Our architectural style transfer framework has three main modules: segmentation, image translation and blending
+				optimization.
+			</div>
+		</div>
+	</section>
+
+	<!-- Qualitative Results-->
+	<section class="subsection" id="results">
+		<h2>Qualitative Results</h2>
+		<div class="col row-cols-1">
+			<img class="figure-img" src="img/result_i2i.png">
+			<p class="figure-caption">Comparisons among <strong>image-to-image translation</strong> baselines and our proposed method. Our results have plausible colors
+				from foreground and background, and preserve the geometry in different style transfer cases.</p>
+			<p></p>
+			<img class="figure-img" src="img/result_nst.png">
+			<p class="figure-caption">Comparisons among <strong>neural style transfer</strong> baselines and proposed method. While neural style transfer methods tend
+				to have visual artifacts, our results have matched colors from foreground and background respectively, and preserve the
+				geometry of the foreground while generating diverse cloud textures in the background.</p>
+		</div>
+		<p>For detailed comparison, please refer to supplmentary <a href="./interactive_viewer" target="_blank">interactive viewer</a> page.</p>
+	</section>
+	<!-- Materials -->
+
+	<!-- Citation -->
+
+	<!-- Acknowlegement -->
+	<section class="subsection">
+		<h2> Acknowlegements </h2>
+		<p>This paper was partially supported by an internal grant from	HKUST (R9429) and the HKUST-WeBank Joint Lab.</p>
+	</section>
+
+	<section class="subsection footer">
+		<hr>
+        <p class="text-center">Webpage is maintained by yingshu2008[AT]gmail.com</p>
+    </section>
+
+</body>
