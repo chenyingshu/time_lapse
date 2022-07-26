@@ -61,6 +61,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   /*margin: 0;*/
   margin: 5%;
+  margin-top: 2%;
   font-family:  var(--font-family-monospace); /*var(--font-family-sans-serif)*/
   font-size: 1rem;
   font-weight: 400;
@@ -1039,6 +1040,10 @@ pre code {
   }
 }
 
+.row-cols-md-2 > * {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
 @media (min-width: 768px) {
   .col-md {
     flex-basis: 0;
@@ -9716,6 +9721,17 @@ h6,
 /*Susan*/
 /*Header*/
 
+/*Button*/
+.btn-group-light {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.btn-group-light > * {
+  padding: 2px 5px;
+}
+
 .text-black {
   color: #555;
 }
@@ -9736,8 +9752,17 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
-
+/*Abstract*/
+.abstract-text {
+  font-size: 90%;
+}
+@media (min-width: 768px) {
+  .abstract-text {
+    font-size: 100%;
+  }
+}
 /*Citation*/
 
 pre {
