@@ -9816,6 +9816,8 @@ code {
   font-size: 5rem;
   line-height: 1.5;
 }
-a:hover i.logo-label, a:hover .img-thumbnail {
+
+a:hover i.logo-label,
+a:hover .img-thumbnail {
   transform: scale(1.1);
 }
