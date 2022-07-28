@@ -28,7 +28,7 @@ If you find our data or work useful in your research, please consider citing:
 
 ## Todo list:
 <!-- - [ ] Semi-segmentation tool (but maybe put in 3d color proj?)-->
-- [ ] Data segmentation preprocessing instruction
+- [x] Data segmentation preprocessing instruction
 - [ ] Source code
 - [ ] Blending/Geometry optimization (resolution restoration)
 - [ ] Pretrained model
