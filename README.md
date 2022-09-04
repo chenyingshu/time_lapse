@@ -29,11 +29,8 @@ If you find our data or work useful in your research, please consider citing:
 ## Todo list:
 <!-- - [ ] Semi-segmentation tool (but maybe put in 3d color proj?)-->
 - [x] Data segmentation preprocessing instruction
-- [ ] Source code
-- [ ] Blending/Geometry optimization (resolution restoration)
-- [ ] Pretrained model
-- [ ] Data (train set with request, eval set public)
+- [x] Source code
+- [x] Blending optimization (resolution restoration)
+- [x] Pretrained models
+- [x] Data (train set with request, eval set public)
 <!-- - [ ] Segmentated data (TBD) -->
-
-<!-- ## Contact
-For any questions, please contact -->
