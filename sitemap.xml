@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/assets/ICCP_2022_paper.pdf</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/assets/ICCP_2022_supp_doc.pdf</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/interactive_viewer/</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/assets/ICCP_2022_poster.pdf</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/assets/ICCP_2022_ppt.pdf</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/interactive_viewer/scenes/i2i-translation-1/index.html</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/interactive_viewer/scenes/i2i-translation-2/index.html</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/interactive_viewer/scenes/neural-style-transfer-1/index.html</loc>
+  <lastmod>2022-09-09T10:57:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/interactive_viewer/scenes/neural-style-transfer-2/index.html</loc>
+  <lastmod>2022-09-09T10:57:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/interactive_viewer/scenes/diverse-styles/index.html</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chenyingshu.github.io/time_of_day/interactive_viewer/index.html</loc>
+  <lastmod>2022-09-09T10:57:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
