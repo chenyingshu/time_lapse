@@ -3,7 +3,7 @@
 <a href="https://chenyingshu.github.io/time_of_day/"><img src="https://img.shields.io/badge/WEBSITE-Visit%20project%20page-blue?style=for-the-badge"></a>
 <a href="https://github.com/hkust-vgd/architectural_style_transfer"><img src="https://img.shields.io/badge/CODE-Access%20Github-red?style=for-the-badge"></a> 
 
-[Yingshu Chen](yschen.site)<sup>1</sup>,
+[Yingshu Chen](http://yschen.site)<sup>1</sup>,
 [Tuan-Anh Vu](https://tuananh1007.github.io/)<sup>1</sup>,
 [Ka-Chun Shum]()<sup>1</sup>,
 [Binh-Son Hua](https://sonhua.github.io/)<sup>2</sup>,
